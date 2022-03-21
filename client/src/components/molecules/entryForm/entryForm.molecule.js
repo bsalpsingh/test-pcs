@@ -139,7 +139,7 @@ export const EmployeeForm = ({
               id="EmployeeName"
               type="date"
               name="Dob"
-              autoComplete={new Date()}
+         
               autoFocus
             />
           </Grid>
@@ -155,7 +155,7 @@ export const EmployeeForm = ({
               type="salary"
               label="salary"
               name="salary"
-              autoComplete={new Date()}
+             
               autoFocus
             />
           </Grid>
