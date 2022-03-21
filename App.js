@@ -120,7 +120,6 @@ app.use(compression());
 
 app.use("/api/v1/employee", EmployeeRouter);
 
-
 //? sending the static files to the browser on the first req...
 // this may be cached by the browser
 
