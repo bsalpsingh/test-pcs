@@ -33,13 +33,7 @@ export const EmployeeForm = ({
   const [qualificationValue, setQualificationValue] = useState(null);
 
   const optionsList = ["Male", "Female", "Third gender"];
-  const [optionValues, setOptionValues] = useState([
-    "SLC",
-    "Intermediate",
-    "BE",
-    "ME",
-    "PHD",
-  ]);
+  const optionValues = ["SLC", "Intermediate", "BE", "ME", "PHD"];
 
   const tableHeaders = ["id", "Qualificatiton", "marks"];
   //handlers
@@ -139,7 +133,6 @@ export const EmployeeForm = ({
               id="EmployeeName"
               type="date"
               name="Dob"
-         
               autoFocus
             />
           </Grid>
@@ -155,7 +148,6 @@ export const EmployeeForm = ({
               type="salary"
               label="salary"
               name="salary"
-             
               autoFocus
             />
           </Grid>
