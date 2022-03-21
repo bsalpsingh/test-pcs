@@ -26,7 +26,7 @@ export const EmployeeForm = ({
 }) => {
   const [employeeDetails, setEmployeeDetails] = useState({
     gender: "Male",
-    dob: new Date(),
+    Dob: new Date(),
   });
   const [qualifications, setQualifications] = useState({});
   const [qualificationTitle, setQualificationTitle] = useState("SLC");
@@ -138,7 +138,7 @@ export const EmployeeForm = ({
               fullWidth
               id="EmployeeName"
               type="date"
-              name="employeeDob"
+              name="Dob"
               autoComplete={new Date()}
               autoFocus
             />

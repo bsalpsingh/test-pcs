@@ -23,6 +23,7 @@ exports.createNewEmployeeRecord = catchAsync(async (req, res, next) => {
     Dob,
     entry_by,
     salary,
+    entry_date,
   });
 
   if (!employee) {

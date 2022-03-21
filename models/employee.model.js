@@ -31,9 +31,7 @@ const employeeSchema = new mongoose.Schema(
       type: String,
       default: "Bishal Singh",
     },
-    entry_date: {
-      type: Date,
-    },
+    entry_date: { type: Date, default: Date.now },
 
     // productBarCode: { type: String, trim: true },
   },
