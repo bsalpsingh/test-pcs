@@ -14,7 +14,7 @@ import Grid from "@material-ui/core/Grid";
 
 import { EntryForm } from "./../../molecules/entryForm/entryForm.molecule";
 import { EmployeeList } from "./../../molecules/employeeList/employeeList.molecule";
-import { EmployeeSummary } from "./../../molecules/employeeRecords/employeeRecords.molecule";
+
 // custom fxns
 import { fetchEmployeeRecordsStart } from "../../../redux/employee/employee.actions";
 import { selectEmployee } from "./../../../redux/employee/employee.selector";
